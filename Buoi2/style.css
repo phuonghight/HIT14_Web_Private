@@ -1,0 +1,57 @@
+/* day la comment trong css */
+/* area
+a
+a */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #ff9a8b;
+}
+
+h1 {
+  max-width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  font-variant: small-caps;
+  text-decoration: underline;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+p {
+  /* color: aqua; */
+  color: var(--primary-color);
+}
+
+.hinhchunhat {
+  height: 200px;
+  width: 200px;
+  /* max-width: 500px;
+  min-width: 200px; */
+  background-image: url("https://i.pinimg.com/564x/df/93/c4/df93c4d82e8647f4bdff0f7b7f65e2cc.jpg");
+  border: 5px solid black;
+  border-radius: 0;
+}
+
+#hinhchunhat {
+  color: white;
+}
+
+.box {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  padding: 50px;
+  margin: 50px;
+  border: 1px solid black;
+  font-family: 
+}
