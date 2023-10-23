@@ -11,8 +11,8 @@
 
 ![](./w02-ex01.jpeg)
 
-- Link ảnh: [Google Drive](https://drive.google.com/file/d/18BvH2bsnGVgsc-sY29mc3c1p43PdHAdM/view?usp=share_link)
-- Link tải font: [VNM Sans Display Regular](https://drive.google.com/file/d/1LHthSn2uOLV5B8SfNTo8MtPJ6nK5UCJZ/view?usp=share_link)
+- Link ảnh: <a href="https://drive.google.com/file/d/18BvH2bsnGVgsc-sY29mc3c1p43PdHAdM/view?usp=share_link" target="_blank">Google Drive</a>
+- Link tải font: <a href="https://drive.google.com/file/d/1LHthSn2uOLV5B8SfNTo8MtPJ6nK5UCJZ/view?usp=share_link" target="_blank">VNM Sans Display Regular</a>
 - Màu nền: #0313b0
 - Màu chữ: #ffffff
 
@@ -20,8 +20,8 @@
 
 ![](./w02-ex02.jpeg)
 
-- Link ảnh: [Google Drive](https://drive.google.com/file/d/1Vec989o8qIQ4rFRqjt6nPmvLb3VunSZk/view?usp=share_link)
-- Link Google Font: [Inter](https://fonts.google.com/specimen/Inter)
+- Link ảnh: <a href="https://drive.google.com/file/d/1Vec989o8qIQ4rFRqjt6nPmvLb3VunSZk/view?usp=share_link" target="_blank">Google Drive</a>
+- Link Google Font: <a href="https://fonts.google.com/specimen/Inter" target="_blank">Inter</a>
 - Màu chủ đạo: #624bff
 - Màu nền: #f1f5f9
 - Màu chữ: #212b36
