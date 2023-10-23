@@ -1,5 +1,7 @@
 # Exercises of week 02
 
+**Sử dụng HTML và CSS để tạo giao diện theo đúng bố cục trong ảnh, có thể thay đổi nội dung văn bản.**
+
 - [x] KHÔNG SỬ DỤNG FLEX BOX
 - [x] KHÔNG SỬ DỤNG GRID
 - [x] KHÔNG SỬ DỤNG POSITION
