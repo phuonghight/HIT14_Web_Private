@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .hola-class~.hello-class {
+            color: red;
+        }
+
+        input[type="password"] {
+            padding: 20px;
+        }
+
+        input[type="checkbox"]:checked+input[type="text"] {
+            padding: 20px;
+        }
+
+        a:active {
+            color: black;
+        }
+
+        a:visited {
+            color: orange;
+        }
+
+        input:focus {
+            border-color: red;
+            outline: none;
+            padding: 20px;
+        }
+
+        #boxx {
+            background-color: brown;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+        }
+
+        .box::before {
+            content: "aaaa";
+            width: 50px;
+            background-color: #fff;
+            display: block;
+        }
+
+        .box:hover::before {
+            height: 50px;
+        }
+
+        .box1 {
+            background: aqua !important;
+        } */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        .container {
+            display: flex;
+            /* flex-direction: row-reverse; */
+            flex-wrap: wrap;
+            justify-content: center; 
+            align-items: center;
+            /* align-content: flex-end; */
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin: 10px;
+        }
+
+        .box2 {
+            height: 200px;
+            order: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="paragraph-container">
+            <p class="hello-class">Hello World</p>
+            <p id="hola-id" class="hola-class">Hola World</p>
+            <p class="hello-class">Hello World</p>
+            <p class="hello-class again-class asdasda">Hello Again World</p>
+        </div>
+    </div>
+    <input type="checkbox">
+    <input type="text" name="" id="">
+    <input type="password">
+    <a href="#">Click me!</a>
+
+    <div class="box box1 box2" id="boxx" style="background-color: chartreuse;"></div> -->
+
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box box2">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+    </div>
+</body>
+
+</html>
