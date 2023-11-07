@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cirle Animation</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        .row {
+            margin: 0 100px;
+        }
+
+        .row .circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: rgb(242, 0, 255);
+            margin: 20px 0;
+            animation: tele 1.5s infinite ease-in-out alternate;
+        }
+
+        .row-left .circle {
+            animation: tele-reverse 1.5s infinite ease-in-out alternate;
+            background-color: rgb(212, 255, 0);
+
+        }
+
+        .row .circle:nth-child(2) {
+            animation-delay: 0.25s;
+        }
+
+        .row .circle:nth-child(3) {
+            animation-delay: 0.75s;
+        }
+
+        .row .circle:nth-child(4) {
+            animation-delay: 1s;
+        }
+
+        .row .circle:nth-child(5) {
+            animation-delay: 1.25s;
+        }
+
+        .row .circle:nth-child(6) {
+            animation-delay: 1.5s;
+        }
+
+        .row .circle:nth-child(7) {
+            animation-delay: 1.75s;
+        }
+
+        .row .circle:nth-child(8) {
+            animation-delay: 2s;
+        }
+
+        .row .circle:nth-child(9) {
+            animation-delay: 2.25s;
+        }
+
+        @keyframes tele {
+            100% {
+                transform: translateX(-200px);
+                background-color: rgb(212, 255, 0);
+            }
+        }
+
+        @keyframes tele-reverse {
+            100% {
+                transform: translateX(200px);
+                background-color: rgb(212, 255, 0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row row-left">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <div class="row row-right">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+</body>
+
+</html>

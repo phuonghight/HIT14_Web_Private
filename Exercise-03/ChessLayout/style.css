@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+}
+
+.line {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.line:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.box {
+  width: calc(500px / 8);
+  height: calc(500px / 8);
+  background-color: #ffce9e;
+}
+.box-even {
+  background-color: #d18b47;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animation</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 48px;
+            font-weight: 900;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .effect {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border-radius: 50%;
+            overflow: hidden;
+            animation: effect 2s linear infinite alternate;
+        }
+
+        .content {
+            color: white;
+            animation: effect-content 2s linear infinite alternate;
+        }
+
+        @keyframes effect {
+            0% {
+                transform: translateX(-50px);
+            }
+
+            100% {
+                transform: translateX(150px);
+            }
+        }
+
+        @keyframes effect-content {
+            0% {
+                transform: translateX(50px);
+            }
+
+            100% {
+                transform: translateX(-150px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">Phuong</div>
+        <div class="effect">
+            <div class="content">Phuong</div>
+        </div>
+    </div>
+</body>
+
+</html>
