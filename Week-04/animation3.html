@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Animation</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            width: 100vh;
+            height: 100vh;
+
+            background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+            background-size: 200%;
+            overflow: hidden;
+            animation: background 4s infinite linear alternate;
+        }
+
+        @keyframes background {
+
+            0%,
+            100% {
+                background-position: 100% 50%;
+            }
+
+            50% {
+                background-position: 50% 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+
+</html>
