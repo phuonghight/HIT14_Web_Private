@@ -126,31 +126,39 @@ section:not(#banner) {
   color: var(--header-color);
 }
 #banner .introduct span {
-  margin: 0 5px;
-}
-#banner .introduct span:nth-child(1)::after {
-  content: "Developer";
-  color: #0563bb;
-  margin: 0 5px;
-}
-#banner .introduct span:nth-child(2) {
   background-color: #fff;
   color: #0563bb;
-  width: 150px;
-  height: 50px;
+  display: block;
+  margin-left: 20px;
+  height: 40px;
+  border-right: 4px solid #0563bb;
+  white-space: nowrap;
+  overflow: hidden;
   display: flex;
   align-items: center;
   font-size: 36px;
-  animation: intro 1.5s linear infinite alternate;
+  letter-spacing: 5px;
+  animation: typing 2s steps(15, end) infinite alternate,
+    blink-caret 2s step-end infinite;
 }
-@keyframes intro {
+@keyframes typing {
   0%,
   25% {
-    transform: translate(0);
+    width: 230px;
   }
   75%,
   100% {
-    transform: translate(-150px, 0);
+    width: 0;
+  }
+}
+@keyframes blink-caret {
+  0%,
+  25% {
+    border-color: #0563bb;
+  }
+  75%,
+  100% {
+    border-color: transparent;
   }
 }
 #banner .social-links a {
@@ -424,4 +432,5 @@ footer .socia-links a i {
   color: #fff;
   cursor: pointer;
   justify-content: center;
+  display: none;
 }

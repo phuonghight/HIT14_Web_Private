@@ -12,7 +12,10 @@ window.addEventListener("scroll", () => {
     scrollToTop.style.display = "flex";
   }
   sections.forEach((sec, i) => {
-    if (sec.getBoundingClientRect().top <= 0) {
+    let top = window.scrollY;
+    let offset = sec.offsetTop;
+    let screenHeight = window.innerHeight;
+    if (offset - top <= screenHeight / 2) {
       navs.forEach((nav) => {
         nav.classList.remove("active");
         navs[i].classList.add("active");
