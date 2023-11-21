@@ -1,0 +1,58 @@
+/* Mobile  */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  nav#nav {
+    display: none;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  #banner {
+    padding-left: 50px;
+    height: 50vh;
+  }
+  #banner .img-wrap img {
+    object-fit: contain;
+  }
+  #banner > .flex-col {
+    height: 80%;
+  }
+  #banner > .flex-col .name {
+    font-size: 36px;
+  }
+  #banner > .flex-col .introduct {
+    font-size: 18px;
+  }
+  #banner > .flex-col .introduct span {
+    font-size: 24px;
+    height: 30px;
+  }
+  @keyframes typing {
+    0%,
+    25% {
+      width: 180px;
+    }
+    75%,
+    100% {
+      width: 0;
+    }
+  }
+  #about .profile .info p,
+  #about > .flex > *,
+  #skills > .report > *,
+  #contact > .flex > * {
+    width: 100% !important;
+  }
+  #facts > .flex > * {
+    width: 50%;
+  }
+  #about .profile {
+    margin: 20px 0;
+  }
+  #service ul {
+    grid-template-columns: 1fr;
+    gap: 20px 0;
+  }
+  .heading {
+    font-size: 28px;
+  }
+}
