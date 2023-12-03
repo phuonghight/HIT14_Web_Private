@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="flex justify-between align-center">
+        <ul class="nav flex">
+            <li class="nav-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#band">Band</a>
+            </li>
+            <li class="nav-item">
+                <a href="#tour">Tour</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">More</a>
+                <ul class="nav-lv2">
+                    <li class="nav-item-lv2">
+                        <a href="#">Merchandise</a>
+                    </li>
+                    <li class="nav-item-lv2">
+                        <a href="#">Extras</a>
+                    </li>
+                    <li class="nav-item-lv2">
+                        <a href="#">Media</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="search flex justify-center align-center">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <div id="home">
+        <img src="https://www.w3schools.com/w3images/la.jpg" alt="">
+        <div class="text-white">
+            Los Angeles
+            <p>We had the best time playing at Venice Beach!</p>
+        </div>
+    </div>
+    <section id="band">
+        <div class="heading">THE BAND</div>
+        <p class="">We love music</p>
+        <div class="description">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est
+            laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+
+        <div style="
+  justify-content: space-around;" class="flex align-center ">
+            <div class="person">
+                <p>Name</p>
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="">
+            </div>
+            <div class="person">
+                <p>Name</p>
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="">
+            </div>
+            <div class="person">
+                <p>Name</p>
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <div style="
+  background-color: #000000;">
+        <section id="tour">
+            <div class="heading text-white">TOUR DATES</div>
+            <p>Remember to book your tickets!</p>
+            <ul>
+                <li class="flex">
+                    <p>September</p>
+                    <div class="sold-out">Sold out</div>
+                </li>
+                <li class="flex">
+                    <p>October</p>
+                    <div class="sold-out">Sold out</div>
+                </li>
+                <li class="flex justify-between align-center">
+                    <p>November</p>
+                    <div class="number flex justify-center align-center">3</div>
+                </li>
+            </ul>
+            <div class="flex card-wrap justify-between">
+                <div class="card">
+                    <div>
+                        <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="">
+                    </div>
+                    <div style="padding: 10px 20px;">
+                        <div class="local">New York</div>
+                        <div class="date">Fri 27 Nov 2016</div>
+                        <p>
+                            Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                        </p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="https://www.w3schools.com/w3images/paris.jpg" alt="">
+                    </div>
+                    <div style="padding: 10px 20px;">
+                        <div class="local">Paris</div>
+                        <div class="date">Sat 28 Nov 2016</div>
+                        <p>
+                            Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                        </p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="">
+                    </div>
+                    <div style="padding: 10px 20px;">
+                        <div class="local">San Francisco</div>
+                        <div class="date">Sun 29 Nov 2016</div>
+                        <p>
+                            Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                        </p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="contact">
+        <div class="heading">CONTACT</div>
+        <p>Fan? Drop a note!</p>
+        <div class="flex justify-between align-center">
+            <div class="contact-content">
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Chicago, US
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    Phone: +00 151515
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    Email: mail@mail.com
+                </p>
+            </div>
+            <form>
+                <div class="flex">
+                    <input required type="text" placeholder="Name">
+                    <input required type="email" placeholder="Email">
+                </div>
+                <input required type="text" placeholder="Message">
+                    <button style="float: right;" class="btn">SEND</button>
+            </form>
+        </div>
+    </section>
+    <div class="map">
+        <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
+    </div>
+    <footer>
+        <div class="ions">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Powered by <a href="#">w3.css</a></p>
+    </footer>
+</body>
+
+</html>
