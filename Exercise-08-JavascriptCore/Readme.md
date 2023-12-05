@@ -1,4 +1,9 @@
-### 1. Tìm số lớn nhất trong 3 số
+# Exercise Week 08:
+
+- Tạo folder gồm 6 file .js ứng với 6 bài
+- Nộp link Github của folder trên
+
+#### 1. Tìm số lớn nhất trong 3 số
 
 | Input               | Ouput |
 | ------------------- | ----- |
@@ -6,7 +11,7 @@
 | a = 3, b = 4, c = 5 | 5     |
 | a = 3, b = 4, c = 8 | 8     |
 
-### 2. Kiểm tra 3 số có phải cạnh của 1 tam giác
+#### 2. Kiểm tra 3 số có phải cạnh của 1 tam giác
 
 | Input               | Ouput |
 | ------------------- | ----- |
@@ -16,7 +21,7 @@
 Input: a = 3, b = 4, c = 5
 Ouput: true
 
-### 3. Đếm số ký tự của từ cuối cùng
+#### 3. Đếm số ký tự của từ cuối cùng
 
 | Input                         | Ouput |
 | ----------------------------- | ----- |
@@ -25,15 +30,14 @@ Ouput: true
 
 (Từ "World" có 5 ký tự)
 
-### 4. Kiểm tra số đối xứng
+#### 4. Kiểm tra số đối xứng
 
-| Input    | Ouput |
-| -------- | ----- |
-| n = 121  | true  |
-| n = -121 | true  |
-| n = 123  | false |
+| Input   | Ouput |
+| ------- | ----- |
+| n = 121 | true  |
+| n = 123 | false |
 
-### 5. Chèn 1 chuỗi tại 1 vị trí vào 1 chuỗi
+#### 5. Chèn 1 chuỗi tại 1 vị trí vào 1 chuỗi
 
 | Input                            | Ouput  |
 | -------------------------------- | ------ |
@@ -41,7 +45,7 @@ Ouput: true
 | s1 = "000", s2 = "abc", p = -100 | 000abc |
 | s1 = "000", s2 = "abc", p = 100  | abc000 |
 
-### 6. Tìm UCLN và BCNN của 2 số nguyên dương
+#### 6. Tìm UCLN và BCNN của 2 số nguyên dương
 
 | Input          | Ouput  |
 | -------------- | ------ |
