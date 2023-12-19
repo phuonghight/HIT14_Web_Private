@@ -1,6 +1,6 @@
 # Exercise Week 10: Array Method and Javascript ES6
 
-- Tạo folder gồm 2 file .js ứng với 6 bài
+- Tạo folder gồm 2 file .js ứng với 2 bài
 - Nộp link Github của folder trên
 
 #### 1. Trung bình cộng
