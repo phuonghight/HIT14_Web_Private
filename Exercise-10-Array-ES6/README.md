@@ -26,10 +26,10 @@ const dogs = [
 ];
 ```
 
-K và T đang huấn luyện những chú chó, và lần này phải huấn luyện những chú chó béo (ăn quá nhiều) và những chú chó gầy (ăn quá ít)
+K và T đang huấn luyện những chú chó, và lần này phải huấn luyện những chú chó béo (ăn quá nhiều) và những chú chó gầy (ăn quá ít).
 
-Những chú chó ăn quá nhiều là những chú chó ăn nhiều hơn lượng thức ăn được recommended, những chú chó ăn quá ít thì ngược lại
-Những chú chó ăn đủ lượng thức ăn được recommended là những chú chó ăn không dưới 10% và không quá 10% lượng thức ăn được recommended
+Những chú chó ăn quá nhiều là những chú chó ăn nhiều hơn lượng thức ăn được recommended, những chú chó ăn quá ít thì ngược lại.
+Những chú chó ăn đủ lượng thức ăn được recommended là những chú chó ăn không dưới 10% và không quá 10% lượng thức ăn được recommended.
 
 - Hãy tính lượng thức ăn recommended và lưu thành 1 thuộc tính (recFood) cho từng chú chó.
   Biết `recommended food = weight ** 0.75 * 28`
