@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Countdown</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            background-color: aliceblue;
+        }
+
+        p {
+            padding: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="day"></p>
+    :
+    <p id="hour"></p>
+    :
+    <p id="minute"></p>
+    :
+    <p id="second"></p>
+
+    <script>
+        const dayEl = document.getElementById('day');
+        const hourEl = document.getElementById('hour');
+        const minuteEl = document.getElementById('minute');
+        const secondEl = document.getElementById('second');
+        const update = () => {
+            const now = new Date().getTime();
+            const curYear = new Date().getFullYear();
+            let birthday = new Date(curYear, 7, 18);
+            if (birthday < now) {
+                birthday = new Date(curYear + 1, 7, 18);
+            }
+            const day = ~~((birthday - now) / (1000 * 60 * 60 * 24));
+            const hour = ~~(((birthday - now) % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minute = ~~(((birthday - now) % (1000 * 60 * 60)) / (1000 * 60));
+            const second = ~~(((birthday - now) % (1000 * 60)) / 1000);
+
+            dayEl.textContent = day.toString().padStart(2, '0') + 'd';
+            hourEl.textContent = hour.toString().padStart(2, '0') + 'h';
+            minuteEl.textContent = minute.toString().padStart(2, '0') + 'm';
+            secondEl.textContent = second.toString().padStart(2, '0') + 's';
+        }
+
+        var interval = setInterval(update, 1000);
+    </script>
+</body>
+
+</html>
